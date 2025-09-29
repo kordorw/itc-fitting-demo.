@@ -1,0 +1,32 @@
+This repository contains a non-proprietary example of my Python/Jupyter workflow for analyzing calorimetry-type data. The notebook demonstrates how to import experimental data, perform nonlinear curve fitting, and generate publication-quality plots. All data included here are dummy values and do not reflect any confidential or unpublished research.
+
+Contents
+
+ITC_Fitting_Demo.ipynb – Jupyter notebook showing the workflow
+
+dummy_itc_data.csv – Example dataset with synthetic values
+
+Features
+
+Reads calorimetry-like data from CSV
+
+Performs nonlinear regression with parameter constraints using scipy.optimize
+
+Calculates binding/thermodynamic parameters from fitted curves
+
+Produces high-quality plots with matplotlib
+
+Requirements
+
+Python 3.x with:
+numpy
+pandas
+scipy
+matplotlib
+How to Run
+
+Clone or download the repository.
+
+Install the required packages (pip install -r requirements.txt or individually).
+
+Open the notebook in JupyterLab or Jupyter Notebook and run all cells.
